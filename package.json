@@ -1,0 +1,43 @@
+{
+  "name": "node-sqlite2mysql",
+  "version": "1.0.0",
+  "description": "Imports all tables from sqlite to MySQL without recreating structure",
+  "keywords": [
+    "database",
+    "db",
+    "migrate",
+    "migration",
+    "migrations",
+    "import",
+    "convert",
+    "conversion",
+    "sqlite",
+    "mysql",
+    "sql"
+  ],
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sqlite2mysql": "./app.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/s-lukas/node-sqlite2mysql/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s-lukas/node-sqlite2mysql.git"
+  },
+  "author": "s.lukas",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.14.1",
+    "moment": "^2.20.1",
+    "promise-mysql": "^3.2.0",
+    "sqlite3": "^3.1.13"
+  }
+}
